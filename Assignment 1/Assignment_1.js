@@ -6,7 +6,7 @@ let string= read.question ("Enter the string\n");
 const TARGET= '0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF' ;
 
 let current=1 ;
-let new_string=current+string ;
+let new_string=string+current ;
 
 for (current=1;  ;current++){
     new_string=string+current ;
