@@ -27,6 +27,7 @@ function generateKeyFiles() {
   
 
 generateKeyFiles();   // Run the function
+// This function generated the two keys that have been uploaded as pem files ( Private_Key_file and Public_Key_file)
 
 
 
