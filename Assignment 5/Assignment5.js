@@ -18,7 +18,7 @@ var Directory = readlineSync.question("Enter it's directory: ");
 
 var blockData = fs.readFileSync(path.join(Directory,FileName),'utf8'); 
 var blockBodyHash=crypto.createHash('sha256').update(blockData).digest('hex');
-console.log(blockBodyHash);
+//console.log(blockBodyHash);
 
 var combinedData= indexOfBlock.toString()+parentHash.toString()+blockBodyHash.toString()+targetValue.toString() ;
 
@@ -26,17 +26,18 @@ var i=0;
 var nonce=0 ;
 var timeTaken=0;
 
-var timeInitial=timeBigInt
+var timeInitial=BigInt(time())
  for ( i=0; ;i++){
 
-    var timestamp=timeBigInt.toString() ;
+    var timestamp=BigInt(time()).toString() ;
     var compare=combinedData+timestamp+i ;
     var compareHash= crypto.createHash('sha256').update(compare).digest('hex') ;
 
     if (compareHash<targetValue.toString())
 {
     nonce=i ;
-    console.log("Time taken: ",(timeBigInt-timeInitial));
+
+    console.log("Time taken: ",(BigInt(time())-timeInitial));
 
     break;
 
@@ -48,5 +49,7 @@ console.log("Index: ",indexOfBlock);
 console.log("Parent Hash: ",parentHash);
 console.log("Block Body Hash: ",blockBodyHash);
 console.log("Target value: ",targetValue);
-console.log("Timestamp: ", timeBigInt);
+console.log("Timestamp: ", BigInt(time()));
 console.log("Nonce: ",nonce);
+
+
