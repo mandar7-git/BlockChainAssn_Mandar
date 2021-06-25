@@ -24,7 +24,9 @@ var combinedData= indexOfBlock.toString()+parentHash.toString()+blockBodyHash.to
 var i=0;
 var nonce=0 ;
 
-var timeInitial=timeBigInt.toString()
+var timeInitial=timeBigInt ;
+var timeTaken=0;
+
 for ( i=0; ;i++){
 
     var timestamp=timeBigInt.toString() ;
@@ -34,6 +36,8 @@ for ( i=0; ;i++){
     if (compareHash<targetValue.toString())
 {
     nonce=i ;
+    
+    console.log("Time taken: ",(timeBigInt-timeInitial));
     break;
 
 
