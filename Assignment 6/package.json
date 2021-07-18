@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "hex-to-binary": "^1.0.1",
+    "nano-time": "^1.0.0",
+    "nodemon": "^2.0.12",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "bc_mandar",
+  "version": "1.0.0",
+  "main": "Assignment 2 (Key pair generation).js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandar7-git/BlockChainAssn_Mandar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandar7-git/BlockChainAssn_Mandar/issues"
+  },
+  "homepage": "https://github.com/mandar7-git/BlockChainAssn_Mandar#readme",
+  "description": ""
+}
