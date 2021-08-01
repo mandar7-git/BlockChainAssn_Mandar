@@ -7,5 +7,6 @@ It was based on **finding the nonce** for a given string. We had to write a prog
 `0x0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF`.
 
 The [code](./Assignment%201/Assignment_1.js) logs the required nonce and the final hash of the string for you!
+The related [theory](./Assignment%201/theory.md).
 
 
