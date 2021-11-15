@@ -27,7 +27,7 @@ Given the index of the block, the hash of the parent block, the target value and
 
 ## [Assignment 6](./Assignment%206)
 
-Aim was to create a simple web server listening on port 8787 with an endpoint which calculates the SHA-256 hash of the given string, converts it to hexadecimal representation, and returns it as JSON encoded data. [Assignment6.js](https://github.com/mandar7-git/Blocks_and_Chains-ACA/blob/main/Assignment%206/Assignment%206.js) contains the relevant code.
+Aim was to create a simple **web server** listening on port 8787 with an endpoint which calculates the **SHA-256 hash** of the given string, converts it to hexadecimal representation, and returns it as JSON encoded data. [Assignment6.js](https://github.com/mandar7-git/Blocks_and_Chains-ACA/blob/main/Assignment%206/Assignment%206.js) contains the relevant code.
 
 
 
