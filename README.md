@@ -12,7 +12,7 @@ The related [theory](./Assignment%201/theory.md).
 
 ## [Assignment 2](./Assignment%202)
 
-I was based on **verifying signatures**. We had to verify if the public key can decrypt the encrypted text, and that the decrypted text was equal to the unencrypted text provided by the user. 
+It was based on **verifying signatures**. We had to verify if the public key can decrypt the encrypted text, and that the decrypted text was equal to the unencrypted text provided by the user. 
 - [Assignment 2(Key pair generation).js](https://github.com/mandar7-git/Blocks_and_Chains-ACA/blob/main/Assignment%202/Assignment%202%20(Key%20pair%20generation).js) generates the Public and Private keys.
 - [Assignment 2(Signing).js](https://github.com/mandar7-git/Blocks_and_Chains-ACA/blob/main/Assignment%202/Assignment_2_(Signing).js) signs a given message with the Private key.
 - [Assignment 2(Verification).js](https://github.com/mandar7-git/Blocks_and_Chains-ACA/blob/main/Assignment%202/Assignment_2_(Verification).js) checks if a given encrypted message decrypted using the Public Key matches with the original message (before signing).
